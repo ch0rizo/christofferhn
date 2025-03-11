@@ -1,7 +1,9 @@
+import './Project.css'
+
 function Projects() {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className='project'>
+      <h1>project</h1>
     </div>
   )
 }

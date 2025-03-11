@@ -4,6 +4,16 @@
   background-color: #0F0F0E;
 }
 
+button {
+  font-family: 'Nippo', sans-serif;
+  color: rgb(255,255,227);
+  background-color: #0F0F0E;
+}
+
+.hidden {
+  display: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;

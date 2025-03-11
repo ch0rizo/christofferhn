@@ -1,15 +1,19 @@
 import './App.css';
-import './components/Navbar/Navbar';
-import Navbar from './components/Navbar/Navbar';
-import IntroSection from './components/IntroSection';
-import Projects from './components/Projects';
+import Home from './Home';
+import IntroLoader from './components/IntroLoader/IntroLoader';
+
+import { useState } from 'react';
 
 function App() {
+  const [showContent, setShowContent] = useState(false);
+
   return (
     <>
-      <Navbar></Navbar>
-      <IntroSection></IntroSection>
-      <Projects></Projects>
+      {!showContent ? (
+        <IntroLoader onContinue={() => setShowContent(true)} />
+      ) : (
+        <Home />
+      )}
     </>
   );
 }
