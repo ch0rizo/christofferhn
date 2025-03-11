@@ -1,3 +1,22 @@
 .navbar {
-  height: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 3vh;
+  /*border-bottom: 1px dotted rgb(255,255,227);*/
+}
+
+.navbar-leftside {
+  display: flex;
+}
+
+.vertical-divider {
+  width: 0;
+  border-left: 1px solid rgb(255, 255, 227);
+  margin: 0 20px;
+  flex-shrink: 0;
 }

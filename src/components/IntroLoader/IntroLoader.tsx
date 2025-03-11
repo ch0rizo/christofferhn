@@ -11,7 +11,7 @@ function IntroLoader({ onContinue }: { onContinue: () => void }) {
     if (progress < 100) {
       const timer = setInterval(() => {
         setProgress((prev) => prev + 1);
-      }, 20);
+      }, 15);
 
       return () => clearInterval(timer);
     } else {
