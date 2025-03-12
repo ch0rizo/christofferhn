@@ -11,7 +11,7 @@
   justify-content: center;
   color: rgb(255,255,227);
   font-size: 2rem;
-  transition: opacity 1s ease-out;
+  transition: opacity 2.3s ease-out;
 }
 
 .fade-out {
